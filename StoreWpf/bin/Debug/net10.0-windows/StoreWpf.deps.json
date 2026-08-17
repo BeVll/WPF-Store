@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "StoreWpf/1.0.0": {
+        "runtime": {
+          "StoreWpf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StoreWpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
