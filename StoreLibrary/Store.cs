@@ -2,11 +2,16 @@ namespace StoreLibrary;
 
 public class Store
 {
-    public string Title123 { get; set; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
     private List<Product> Products { get; set; } = new List<Product>();
-    
 
-    public List<Product> GeAllProducts()
+    public Store(string title)
+    {
+        Title = title;
+    }
+
+
+    public List<Product> GetAllProducts()
     {
         return Products;
     }

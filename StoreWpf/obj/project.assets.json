@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net10.0-windows": {}
+    "net10.0-windows": {
+      "StoreLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/StoreLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StoreLibrary/1.0.0": {
+      "type": "project",
+      "path": "../StoreLibrary/StoreLibrary.csproj",
+      "msbuildProject": "../StoreLibrary/StoreLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0-windows": []
+    "net10.0-windows": [
+      "StoreLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\vladi\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
         "net10.0-windows": {
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vladi\\source\\repos\\WPF-Store\\StoreLibrary\\StoreLibrary.csproj": {
+              "projectPath": "C:\\Users\\vladi\\source\\repos\\WPF-Store\\StoreLibrary\\StoreLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="WPF-STORE" HorizontalAlignment="Center" Margin="0,39,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold"/>
+        <ComboBox Name="ProductComboBox" HorizontalAlignment="Center" Margin="0,117,0,0" VirtualizingPanel.IsVirtualizing="True"  VirtualizingPanel.VirtualizationMode="Recycling" ScrollViewer.CanContentScroll="True" VerticalAlignment="Top" Width="320"/>
+        <Button Content="Створити продукт" HorizontalAlignment="Left" Margin="252,175,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Редагувати вибраний продукт" HorizontalAlignment="Left" Margin="390,175,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
