@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreWpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+501fd34406528b344168c6b2f2db27549623f923")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c888d0e85233a30d22e832beb277fa5f48ac093c")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreWpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreWpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
